@@ -1,0 +1,18 @@
+.button {
+  display: inline-block;
+  background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
+  padding: 16px 32px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--cor-p5);
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+
+.button:hover {
+  background: #ffbf00;
+}

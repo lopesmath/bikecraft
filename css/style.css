@@ -6,5 +6,11 @@
 @import url(/css/utilities/spacing.css);
 @import url(/css/global/header.css);
 
-/* pages */
+/* homepage */
 @import url(/css/home.css/intro.css);
+@import url(/css/home.css/tecnologia.css);
+@import url(/css/home.css/parceiros.css);
+@import url(/css/home.css/depoimento.css);
+
+/* bicicletas */
+@import url(/css/bicicletas/bicicletas-list.css);

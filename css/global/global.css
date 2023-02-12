@@ -4,6 +4,8 @@ body {
 }
 
 h1,
+h2,
+h3,
 ul,
 p {
   margin: 0;
@@ -24,5 +26,9 @@ img {
 }
 
 .border-radius {
+  border-radius: 0.25rem;
+}
+
+img[src$=".jpg"] {
   border-radius: 0.25rem;
 }

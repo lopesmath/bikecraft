@@ -1,11 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  box-sizing: border-box;
   padding: 1.25rem;
-  max-width: 75rem;
-  margin-left: auto;
-  margin-right: auto;
   align-items: center;
   flex-wrap: wrap;
 }

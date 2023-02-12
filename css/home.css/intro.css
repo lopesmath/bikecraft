@@ -3,11 +3,6 @@
 }
 
 .intro {
-  max-width: 75rem;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 1.25rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;

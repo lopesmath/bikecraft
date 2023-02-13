@@ -42,7 +42,8 @@
   .font-1-title {
     font-size: 2rem;
   }
-  .font-2-title2 {
+  .font-2-title2,
+  .font-2-title {
     font-size: 1rem;
   }
 }

@@ -6,13 +6,18 @@
 @import url(/css/utilities/spacing.css);
 @import url(/css/global/header.css);
 @import url(/css/global/footer.css);
+@import url(/css/global/title.css);
 
 /* homepage */
-@import url(/css/home.css/intro.css);
-@import url(/css/home.css/tecnologia.css);
-@import url(/css/home.css/parceiros.css);
-@import url(/css/home.css/depoimento.css);
-@import url(/css/home.css/seguros.css);
+@import url(/css/home/intro.css);
+@import url(/css/home/tecnologia.css);
+@import url(/css/home/parceiros.css);
+@import url(/css/home/depoimento.css);
+@import url(/css/home/seguros.css);
 
 /* bicicletas */
 @import url(/css/bicicletas/bicicletas-list.css);
+@import url(/css/bicicletas/bicicletas.css);
+
+/* termos */
+@import url(/css/termos/termos.css);

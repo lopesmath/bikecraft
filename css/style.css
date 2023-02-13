@@ -5,12 +5,14 @@
 @import url(/css/utilities/components.css);
 @import url(/css/utilities/spacing.css);
 @import url(/css/global/header.css);
+@import url(/css/global/footer.css);
 
 /* homepage */
 @import url(/css/home.css/intro.css);
 @import url(/css/home.css/tecnologia.css);
 @import url(/css/home.css/parceiros.css);
 @import url(/css/home.css/depoimento.css);
+@import url(/css/home.css/seguros.css);
 
 /* bicicletas */
 @import url(/css/bicicletas/bicicletas-list.css);

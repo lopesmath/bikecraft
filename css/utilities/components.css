@@ -29,3 +29,12 @@
 .uppercase {
   text-transform: uppercase;
 }
+
+.secundario {
+  background: var(--cor-g2);
+  color: var(--cor-g10);
+}
+.secundario:hover {
+  background: var(--cor-g3);
+  color: var(--cor-g10);
+}

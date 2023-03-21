@@ -21,3 +21,15 @@
 
 /* termos */
 @import url(/css/termos/termos.css);
+
+/* seguros */
+@import url(/css/seguros/vantagens.css);
+
+/* bicicleta */
+@import url(/css/bicicleta/bicicleta.css);
+
+/* contato */
+@import url(/css/contato/contato.css);
+
+/* orcamento */
+@import url(/css/orcamento/orcamento.css);

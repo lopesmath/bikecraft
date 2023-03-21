@@ -26,7 +26,8 @@
   margin-top: 0.25rem;
   position: absolute;
 }
-.header-menu a:hover:after {
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
   width: 100%;
   transition-duration: 0.3s;
   background: var(--cor-g11);

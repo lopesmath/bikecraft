@@ -5,10 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Bikcraft - Bicicletas Elétricas</title>
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -17,7 +25,7 @@
       <a href="/"><img src="./img/bikcraft.svg" alt="Bikcraft"></a>
       <nav aria-label="primaria">
         <ul class="header-menu">
-          <li><a href="./bicicleta.html">Bicicleta</a></li>
+          <li><a href="./bicicletas.html">Bicicletas</a></li>
           <li><a href="./seguros.html">Seguros</a></li>
           <li><a href="./contato.html">Contato</a></li>
         </ul>
@@ -31,7 +39,7 @@
         <h1 class="font-1-title mb32 white-font">Bicicletas feitas sob medida<span class="p1-font">.</span>
         </h1>
         <p class="font-2-title2 g6-font mb20">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a class="button" href="/">Escolha a sua</a>
+        <a class="button" href="/bicicletas.html">Escolha a sua</a>
       </div>
       <img class="intro-img border-radius" src="/img/fotos/introducao.jpg" alt="Bicicleta elétrica preta.">
     </div>
@@ -192,6 +200,7 @@
     </div>
     <p class="g6-font container">Bikcraft © Alguns direitos reservados.</p>
   </footer>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
